@@ -2,11 +2,11 @@
 Repository for Kodi addons
 
 # Structure of Repository
-/addons - your addons
-/generator - contains the repo generator and a run file
-/repo - contains an index.html for github pages and the most recent repoistory zip
-/xml - contains the addons xml and md5 xml
-/zips - contains all zips of your addons
+- /addons - your addons
+- /generator - contains the repo generator and a run file
+- /repo - contains an index.html for github pages and the most recent repoistory zip
+- /xml - contains the addons xml and md5 xml
+- /zips - contains all zips of your addons
 
 # How to use repo generator
 1. place your addons in /addons
@@ -23,6 +23,8 @@ Repository for Kodi addons
 
 # Repository Addon Structure
 
+
+```XML
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="{ YOUR_KODI_REPO_ID }" name="{ YOUR_KODI_REPO_NAME }" version="1.0.0" provider-name="{ YOUR_KODI_NAME }">
     <extension point="xbmc.addon.repository" name="{ YOUR_KODI_REPO_NAME }">
