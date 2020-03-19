@@ -1,0 +1,4 @@
+/addons
+__pycache__
+*.pyo
+*.pyc
