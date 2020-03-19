@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.file.editor" name="File Editor" version="1.0.0" provider-name="nazarja">
+	<requires>
+		<import addon="xbmc.python" version="2.25.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">A simple file editor tool for Kodi.</summary>
+    <description lang="en_GB">Create new and edit existing files in a text editor. Copy, Rename and Delete files And directories.</description>
+    <disclaimer lang="en_GB">This script can create and overwrite files on your system. Use with caution.</disclaimer>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+    <source>https://github.com/nazarja/script.file.editor/</source>
+    <assets>
+        <icon>resources/images/icon.png</icon>
+        <fanart>resources/images/fanart.jpg</fanart>
+        <screenshot>resources/images/1.png</screenshot>
+        <screenshot>resources/images/2.png</screenshot>
+        <screenshot>resources/images/3.png</screenshot>
+    </assets>
+  </extension>
+</addon>
