@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.maintenance.helper" name="Maintenance Helper" version="1.0.0" provider-name="nazarja">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+    <import addon="script.module.requests" version="2.19.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">A simple maintenance helper tool for kodi.</summary>
+    <description lang="en_GB">A simple maintenance helper tool for kodi.</description>
+    <disclaimer lang="en_GB">This script can delete files from your kodi system.</disclaimer>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE Version 2</license>
+    <source>https://github.com/nazarja/script.maintenance.helper</source>
+    <assets>
+        <icon>resources/images/icon.png</icon>
+        <fanart>resources/images/fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
